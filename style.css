@@ -1,0 +1,478 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+  background: #444444;/*rgb(204,204,204)*/; 
+	font-size: small;
+	margin:1em;
+	padding:1em;
+}
+
+page[size="A4"] {
+  width: 21cm;
+  height: 29.7cm;
+  display: block;
+	box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+}
+
+@media print {
+  body, page[size="A4"] {
+    margin: 0;
+    box-shadow: 0;
+  }
+}
+
+nav {
+	display: flex;
+	flex: 1 1;
+}
+
+nav * {
+	padding: 0;
+	margin: 0;
+	vertical-align: middle;
+}
+
+nav #icons {
+	/*
+	margin: 0 auto;
+	*/
+	justify-items: center;
+	display: flex;
+	flex: 1 1;
+}
+
+.icon-img * {
+	display: flex;
+	justify-items: center;
+	align-items: center;
+	margin: 0 auto;
+}
+
+#name {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	vertical-align:middle;
+}
+
+.where {
+	font-weight: bold;
+}
+
+.when {
+	font-style: italic;
+	font-size: small;
+}
+
+#content {
+	display:flex;
+	margin: 1em 1em;
+}
+
+/*
+* {
+	padding: 0.1em;
+	margin: 0.1em;
+}
+*/
+
+/*
+* {
+	color: #444444;
+}
+
+h1,h2 {
+	color: #666666;
+}
+*/
+
+body {
+  background: #444444;/*rgb(204,204,204)*/; 
+	font-size: small;
+	margin:1em;
+	padding:1em;
+}
+
+page[size="A4"] {
+  width: 21cm;
+  height: 29.7cm;
+  display: block;
+  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+}
+
+@media print {
+  body, page[size="A4"] {
+    margin: 0;
+    box-shadow: 0;
+  }
+}
+
+nav * {
+	padding: 0;
+	margin: 0;
+	vertical-align: middle;
+}
+
+nav {
+	display: flex;
+	flex: 1 1;
+}
+
+#name {
+	margin: 0;
+	padding: 0;
+	flex: 1 1;
+}
+
+.where {
+	font-weight: bold;
+}
+
+.when {
+	font-style: italic;
+	font-size: small;
+}
+
+#work-and-education {
+	flex: 64% 1;
+	margin: 0 0 0 0;
+	width: 64%
+}
+
+#not-work-and-education {
+	float:right;
+	width: 36%;
+	flex: 36% 1;
+	margin: 0 0 1em 1em;
+	padding: 1em;
+	border-radius: 1em;
+	background-color: darkgray;
+	color: #444444;
+	height: 100100%
+}
+
+#not-work-and-education > * {
+	flex:column;
+	justify-content: space-around;
+
+}
+
+a {
+	color: lightgreen;
+}
+
+
+#not-work-and-education a {
+	color: darkgreen;
+}
+
+.feats {
+	font-size: small;
+}
+.proyect-feats {
+	font-size: smaller;
+}
+
+
+h2, h3, h4 {
+	margin: 0;
+}
+
+ul {
+	margin: 0;
+   padding-left: 1em;
+   /* If you want you can change the list type from inside or outside
+   list-style: inside decimal;
+ */
+}
+
+.sbcontainer {
+  width:1em;/* 100%;  Full width */
+	height:0.618em;
+  background-color: #ddd; /* Grey background */
+	box-sizing:inline;
+
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+	height:0.618em;
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+	text-align: justify;
+}
+
+.whatis {
+	font-size: small;
+	font-weight: normal;
+	display: inline;
+}
+.english-details {
+	display: grid;
+	grid: 4 / 4 / 1 / 1;
+	font-size: small;
+}
+
+.right {
+	text-align: right;
+}
+
+p {
+	line-height: 1em;
+	margin: 5px 0;
+}
+
+.skill-score {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.techs {
+	font-weight: bold;
+	font-size: small;
+	display: inline;
+}
+
+.below {
+	display: flex;
+}
+
+.below-left {
+	flex: 1 1 auto;
+	width: 100%;
+}
+
+.below-right {
+	flex: 1 1 auto;
+	width: 100%;
+	margin: 0 0 1em 0;
+}
+
+.below-right .feats {
+	text-align: right;
+}
+
+/*
+.below-left {
+	display: inline-block;
+	width: 50%;
+}
+.below-right {
+	display: inline-block;
+	width: 50%;
+}
+*/
+
+#icons {
+	justify-items: center;
+	display: flex;
+	margin: 0 0.5em;
+}
+
+#icons > * {
+	flex: 1 1;
+	flex: space-between;
+}
+
+.icon-img * {
+	display: flex;
+	justify-items: center;
+	align-items: center;
+	margin: 0 auto;
+}
+
+
+
+.icon-text {
+	font-size: xx-small;
+	text-align: center;
+	margin: 0.5em 0 0 0 !important;
+}
+
+
+.icon {
+	text-align: center; 
+}
+/*
+.icon {
+	display: inline-block;
+	vertical-align: middle;
+}
+*/
+
+
+.cat {
+	font-weight: bold;
+	display: inline-block;
+}
+
+/*
+#skills {
+	display: flex;
+}
+
+#skills .left {
+	display: flex;
+	flex: 50% 1;
+	width: 60%;
+}
+
+#skills .right {
+	display: flex;
+	flex: 50% 1;
+}
+*/
+
+a {
+	text-decoration: none;
+}
+
+#pitch {
+	margin: 2em 0.5em ;
+	padding: 2em 1em;
+	background-color: #111111;
+	border-radius: 1em;
+	text-align: justify;
+}
+#pitch p {
+	margin: 0.1em 0.1em;
+}
+/*
+	flex: 64% 1;
+	margin: 0 2em 0 0;
+	width: 64%
+}
+*/
+
+.feats {
+	font-size: small;
+}
+.proyect-feats {
+	font-size: smaller;
+}
+
+
+h2, h3, h4 {
+	margin: 0;
+}
+
+ul {
+	margin: 0;
+   padding-left: 1em;
+   /* If you want you can change the list type from inside or outside
+   list-style: inside decimal;
+ */
+}
+
+.sbcontainer {
+  width:1em;/* 100%;  Full width */
+	height:0.618em;
+  background-color: #ddd; /* Grey background */
+	box-sizing:inline;
+
+}
+
+.skills {
+	height:0.618em;
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+#skills{
+  text-align: center; /* Right-align text */
+}
+
+.whatis {
+	font-size: small;
+	font-weight: normal;
+	display: inline;
+}
+.english-details {
+	display: grid;
+	grid: 4 / 4 / 1 / 1;
+	font-size: small;
+}
+
+.right {
+	text-align: right;
+}
+
+p {
+	line-height: 1em;
+	margin: 5px 0;
+}
+
+.skill-score {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.techs {
+	font-weight: bold;
+	font-size: small;
+	display: inline;
+}
+
+.below {
+	display: flex;
+}
+
+.below-left {
+	flex: 1 1 auto;
+	width: 100%;
+}
+
+.below-right {
+	flex: 1 1 auto;
+	width: 100%;
+	margin: 0 0 1em 0;
+}
+
+.below-right .feats {
+	text-align: right;
+}
+
+#icons 
+.icon-text {
+	font-size: xx-small;
+	text-align: center;
+	justify-self: center;
+
+	margin: 0.5em 0 0 0 !important;
+}
+
+.icon {
+	justify-self: center;
+	text-align: center; 
+}
+
+/*
+.icon {
+	display: inline-block;
+	vertical-align: middle;
+}
+*/
+
+.cat {
+	font-weight: bold;
+	display: inline-block;
+}
+
+a {
+	text-decoration: none;
+}
+
+#pitch {
+	margin: 1em 0.5em ;
+	padding: 1em;
+	background-color: #111111;
+	border-radius: 1em;
+}
+
